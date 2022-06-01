@@ -12,7 +12,6 @@ import com.haimoev.networkandstorage.util.format
 import kotlinx.android.synthetic.main.item_currency_list.view.*
 import java.util.*
 
-
 class CurrencyListAdapter : ListAdapter<CurrencyEntity, CurrencyListAdapter.CurrencyListViewHolder>(callback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CurrencyListViewHolder {

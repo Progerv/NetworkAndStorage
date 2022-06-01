@@ -12,7 +12,6 @@ import com.haimoev.networkandstorage.data.local.entities.CurrencyEntity
  * Класс [CurrenciesDatabase] управляет базой данных Room внутри приложения
  */
 @Database(entities = [CurrencyEntity::class], version = DATABASE_VERSION, exportSchema = false)
-//@TypeConverters(DateConverter::class)
 abstract class CurrenciesDatabase: RoomDatabase() {
     abstract fun currenciesListDao(): CurrenciesListDao
 
